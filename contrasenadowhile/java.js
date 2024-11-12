@@ -10,6 +10,6 @@ for (let i = 0; i < 3; i++){
         } else {
             alert("contrasena incorrecta vuelve a intentarlo");
         }
-    }
+    } while (contrasena !== palabra.toLocaleLowerCase());
 }
 
