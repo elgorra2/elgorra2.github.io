@@ -1,5 +1,5 @@
 let  contrasena = "buenas";
-
+window.prompt("escribe");
 do {
     let palabra = prompt("Escriba la contraseña");
     if ( contrasena === palabra.toLowerCase()){
