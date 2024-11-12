@@ -1,5 +1,4 @@
-let  contrasena;
-contrasena = "buenas";
+let  contrasena = "buenas";
 
 do {
     let palabra = prompt("Escriba la contraseña");
