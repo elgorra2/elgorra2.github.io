@@ -10,4 +10,3 @@ do {
         alert("contrasena incorrecta vuelve a intentarlo");
     }
 } while (contrasena !== palabra.toLocaleLowerCase());
-
