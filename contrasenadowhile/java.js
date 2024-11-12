@@ -6,8 +6,10 @@ for (let i = 0; i < 3; i++){
         let palabra = prompt("Escriba la contraseña");
         if ( contrasena === palabra.toLowerCase()){
             alert("contraseña correcta puedes continuar");
-            break
+            break;
+        } else {
+            alert("contrasena incorrecta vuelve a intentarlo");
         }
     }
-
+}
 
